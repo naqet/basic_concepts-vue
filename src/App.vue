@@ -1,5 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from "./components/Header.vue";
+import TodoList from "./components/TodoList.vue";
+</script>
 
-<template>Hello</template>
+<template><Header /><TodoList /></template>
 
 <style scoped></style>
